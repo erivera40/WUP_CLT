@@ -182,4 +182,4 @@ p + ggtitle("n = 36") +
 print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
-
+As the sample increases the standard deviation gets smaller while the mean remains the same. With numb=36 the mean is 49.8268333333333 and the standard deviation is 6.76612606869023. The mean is close to 50 and the standard deviation is 7 meaning it makes sense.

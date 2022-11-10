@@ -112,6 +112,9 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
 
+As the sample increases the standard deviation gets smaller while the mean remains the same. With numb=9 the mean is 49.9276666666667 and the standard deviation is 13.7570062382916. The mean is close to 50 and the standard deviation is 14 meaning it makes sense.  
+
+
 ```{r}
 numb = 16
 Hdata = Homers_data[sample(1:1000,size=numb*1000, replace=T),"kkardashtemp"]

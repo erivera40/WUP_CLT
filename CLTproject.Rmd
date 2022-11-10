@@ -160,6 +160,7 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
 
+As the sample increases the standard deviation gets smaller while the mean remains the same. With numb=25 the mean is 50.05416 and the standard deviation is 8.49813260382257. The mean is close to 50 and the standard deviation is 8.4 meaning it makes sense.
 
 ```{r}
 numb = 36
